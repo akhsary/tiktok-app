@@ -13,6 +13,7 @@
 		5BD0D1112C0BA39100875E6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD0D1102C0BA39100875E6D /* Preview Assets.xcassets */; };
 		5BD0D1282C0BA4FB00875E6D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D1272C0BA4FB00875E6D /* MainTabView.swift */; };
 		5BD0D12A2C0BAD7300875E6D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D1292C0BAD7300875E6D /* FeedView.swift */; };
+		5BD0D12C2C0BAFEE00875E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D12B2C0BAFEE00875E6D /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5BD0D1102C0BA39100875E6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BD0D1272C0BA4FB00875E6D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		5BD0D1292C0BAD7300875E6D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5BD0D12B2C0BAFEE00875E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				5BD0D1292C0BAD7300875E6D /* FeedView.swift */,
+				5BD0D12B2C0BAFEE00875E6D /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD0D12A2C0BAD7300875E6D /* FeedView.swift in Sources */,
+				5BD0D12C2C0BAFEE00875E6D /* FeedCell.swift in Sources */,
 				5BD0D10C2C0BA38F00875E6D /* ContentView.swift in Sources */,
 				5BD0D10A2C0BA38F00875E6D /* TikTokApp.swift in Sources */,
 				5BD0D1282C0BA4FB00875E6D /* MainTabView.swift in Sources */,
