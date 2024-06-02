@@ -24,12 +24,12 @@ struct MainTabView: View {
                 }
                 .tag(0)
             
-            Text("Friends")
+            ExploreView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "person.2")
+                        Image(systemName: "safari")
                             .environment (\.symbolVariants, selectedTab == 1 ? .fill : .none)
-                        Text("Friends")
+                        Text("Explore")
                     }
                 }
                 .onAppear {

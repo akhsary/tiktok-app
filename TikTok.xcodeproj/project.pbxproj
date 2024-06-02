@@ -14,6 +14,8 @@
 		5BD0D1282C0BA4FB00875E6D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D1272C0BA4FB00875E6D /* MainTabView.swift */; };
 		5BD0D12A2C0BAD7300875E6D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D1292C0BAD7300875E6D /* FeedView.swift */; };
 		5BD0D12C2C0BAFEE00875E6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D12B2C0BAFEE00875E6D /* FeedCell.swift */; };
+		5BD0D12E2C0BDF8600875E6D /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D12D2C0BDF8600875E6D /* ExploreView.swift */; };
+		5BD0D1302C0C761900875E6D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0D12F2C0C761900875E6D /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5BD0D1272C0BA4FB00875E6D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		5BD0D1292C0BAD7300875E6D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		5BD0D12B2C0BAFEE00875E6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		5BD0D12D2C0BDF8600875E6D /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		5BD0D12F2C0C761900875E6D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		5BD0D11F2C0BA3FE00875E6D /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				5BD0D12D2C0BDF8600875E6D /* ExploreView.swift */,
+				5BD0D12F2C0C761900875E6D /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				5BD0D12C2C0BAFEE00875E6D /* FeedCell.swift in Sources */,
 				5BD0D10C2C0BA38F00875E6D /* ContentView.swift in Sources */,
 				5BD0D10A2C0BA38F00875E6D /* TikTokApp.swift in Sources */,
+				5BD0D12E2C0BDF8600875E6D /* ExploreView.swift in Sources */,
 				5BD0D1282C0BA4FB00875E6D /* MainTabView.swift in Sources */,
+				5BD0D1302C0C761900875E6D /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
