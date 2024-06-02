@@ -1,5 +1,5 @@
 //
-//  ExploreView.swift
+//  NotificationsView.swift
 //  TikTok
 //
 //  Created by Юрий Чекан on 02.06.2024.
@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct ExploreView: View {
+struct NotificationsView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(spacing: 16) {
-                    ForEach(1..<20) { user in
-                        UserCell()
+                LazyVStack(spacing: 24) {
+                    ForEach(1..<20) { notification in
+                        NotificationCell()
                     }
                 }
             }
-            .navigationTitle("Explore")
+            .navigationTitle("Notifications")
             .navigationBarTitleDisplayMode(.inline)
-            .padding(.top)
+            .padding(.vertical)
         }
     }
 }
 
 #Preview {
-    ExploreView()
+    NotificationsView()
 }

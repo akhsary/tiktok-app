@@ -42,7 +42,7 @@ struct MainTabView: View {
                         Image(systemName: "plus")
                     }
             
-            Text("Notifications")
+           NotificationsView()
                 .tabItem {
                     VStack {
                         Image(systemName: "ellipsis.bubble")
@@ -55,7 +55,7 @@ struct MainTabView: View {
                 }
                 .tag(3)
             
-            Text("Profile")
+            CurrentUser()
                 .tabItem {
                     VStack {
                         Image(systemName: "person")
